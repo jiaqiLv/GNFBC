@@ -1,0 +1,12 @@
+.venv/
+data/
+runs/
+deprecated/
+docs/
+tools/
+
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.pytest_cache/

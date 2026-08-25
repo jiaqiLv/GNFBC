@@ -1,0 +1,22 @@
+data:
+  root: data
+  train_ratio: 0.4
+  val_ratio: 0.2
+  seed: 2
+
+model:
+  hidden_channels: 128
+  num_layers: 2
+  dropout: 0.5
+
+training:
+  epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  feedback_loss_weight: 1.0
+  aware_loss_weight: 1.0
+  patience: 20
+
+runtime:
+  device: auto
+  inference_mode: aware
